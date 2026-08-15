@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "38751960"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "4e8f828046a30ec70899b523bd763fa9")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "8711116444:AAFbTnu_anzHCbMiYpABIT9I5pd_A0sDZ20")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://tgjiro441_db_user:Tgjirosamkun@cluster0.9reqco1.mongodb.net/?appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -21,9 +21,9 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "8711116444"))
 
-OWNER_ID = int(getenv("OWNER_ID", "5311223486"))
+OWNER_ID = int(getenv("OWNER_ID", "7754709357"))
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -42,8 +42,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )   
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/frozentools")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tmm_support_chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Senpai_Jito")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+nVbBBuk3cjMzODg1")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
